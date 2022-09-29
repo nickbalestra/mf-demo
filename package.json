@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace design-system-app run start & yarn workspace gateway-app run start & yarn workspace shell-app run start"
+  },
+  "workspaces": {
+    "packages": [
+      "./design-system-app",
+      "./gateway-app",
+      "./shell-app"
+    ]
+  }
+}

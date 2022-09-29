@@ -1,0 +1,23 @@
+body {
+    font-family: "Helvetica", Sans-Serif;
+    margin: 0;
+}
+
+.homeContainer {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.docsContainer {
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    column-gap: 32px;
+}
+
+.link {
+    vertical-align: super;
+    margin-left: 8px;
+    color: #333;
+    text-decoration: none;
+}
