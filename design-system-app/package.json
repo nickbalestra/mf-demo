@@ -3,7 +3,9 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "start": "start-storybook -p 6006 --no-manager-cache"
+    "start": "start-storybook -p 6006 --no-manager-cache",
+    "start:docs": "start-storybook -p 6006 --docs --no-manager-cache",
+    "build": "build-storybook --docs --output-dir dist --no-manager-cache --disable-telemetry"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
